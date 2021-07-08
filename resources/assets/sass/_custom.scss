@@ -1,0 +1,56 @@
+.bg-flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.navbar {
+  border-radius: 0 !important;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+.album-title {
+  text-align: center;
+
+  @include atSmall {
+    text-align: left;
+  }
+}
+
+.album-name {
+  margin-bottom: 30px;
+  text-align: center;
+
+  @include atSmall {
+    text-align: left;
+  }
+}
+
+.album-img {
+  margin-bottom: 0;
+  max-width: 210px;
+  margin: auto;
+
+  @include atSmall {
+    max-width: 100%;
+  }
+}
